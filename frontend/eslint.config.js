@@ -11,7 +11,7 @@ export default tseslint.config(
 		extends: [
 			js.configs.recommended,
 			...tseslint.configs.recommended,
-			eslintConfigPrettier, //追加
+			eslintConfigPrettier,
 		],
 		files: ['**/*.{ts,tsx}'],
 		languageOptions: {
@@ -28,7 +28,6 @@ export default tseslint.config(
 				'warn',
 				{ allowConstantExport: true },
 			],
-			//追加
 			'@typescript-eslint/naming-convention': [
 				'error',
 				{
@@ -82,7 +81,6 @@ export default tseslint.config(
 				},
 			],
 		},
-		//追加
 		settings: {
 			react: {
 				version: 'detect',
