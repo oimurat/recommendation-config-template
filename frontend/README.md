@@ -23,8 +23,12 @@ React開発におけるVSCodeの設定が記載されています。
 整形ツールとして使用するprettierの設定が記載されています。
 
 #### 内容
-    "useTabs": true
-インデントにスペースではなく、タブを使用するようにしています。
+    "tabWidth": 4
+インデントのスペースの数を4にしています。
+
+####
+    "useTabs": false
+インデントにタブではなくスペースを使用するようにしています。
 
 ####
     "semi": true
@@ -46,7 +50,7 @@ React開発におけるVSCodeの設定が記載されています。
 			    ...
 			    eslintConfigPrettier,
 		    ],
-ESLintの整形機能を無効化しています。
+整形ツールのprettierと競合を起こさないようにESLintの整形機能を無効化しています。
 
 ####
     '@typescript-eslint/naming-convention': [
