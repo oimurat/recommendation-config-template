@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "editor.formatOnSave": true,
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "php-cs-fixer.executablePath": "${workspaceFolder}/vendor/bin/php-cs-fixer",
+    "phpstan.enabled": true,
+    "phpstan.configFile": "phpstan.neon",
+    "phpstan.memoryLimit": "1G"
+}
