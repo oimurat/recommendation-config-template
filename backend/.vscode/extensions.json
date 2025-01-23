@@ -1,7 +1,7 @@
 {
     "recommendations": [
         "junstyle.php-cs-fixer",
-        "sanderronde.phpstan-vscode",
+        "SanderRonde.phpstan-vscode",
         "bmewburn.vscode-intelephense-client",
         "xdebug.php-debug",
         "neilbrayfield.php-docblocker"
