@@ -1,4 +1,4 @@
-# backend用各種設定テンプレート説明
+# Laravel用各種設定テンプレート説明
 
 ## 1. .vscode/settings.json
 

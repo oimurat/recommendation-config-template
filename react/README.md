@@ -1,4 +1,4 @@
-# frontend用各種設定テンプレート説明
+# React用各種設定テンプレート説明
 
 ## 1. .vscode/settings.json
 
